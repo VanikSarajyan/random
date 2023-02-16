@@ -13,5 +13,8 @@ class Restaurant:
         return self.menu
     
     def add_food(self, food: Food) -> None:
-        pass
+        self.menu.append(food)
+    
+    def remove_food(self, food: Food) -> None:
+        self.menu.remove(food)
 
