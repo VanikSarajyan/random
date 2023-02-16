@@ -24,4 +24,3 @@ class Food:
             self.quantity = int(quantity)
         else:
             raise ValueError("Quantity can't be negative.")
-    

@@ -14,3 +14,4 @@ class Restaurant:
     
     def add_food(self, food: Food) -> None:
         pass
+
