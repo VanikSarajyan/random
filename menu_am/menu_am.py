@@ -14,7 +14,7 @@ class MenuAm:
                     if food.get_quatity() > 0:
                         print(f"Food is in delivering to {address}")
                         food.set_quantity(food.get_quantity()-1)
-                        user.set_amount(user.get_amount - food.get_price())
+                        user.set_amount(user.get_amount() - food.get_price())
                     else:
                         raise ValueError("Not enugh food")
                 else:
